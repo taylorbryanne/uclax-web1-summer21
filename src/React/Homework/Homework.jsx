@@ -11,8 +11,8 @@ const Homework = () => {
         question='What is the difference between Git, Github and Heroku?'
         >
             <p>
-            Git is an open-source version control system that allows developers to keep track of our code history. We can easily “undo” changes and get back to earlier versions of the code if and when necessary. You do not need GitHub to use Git but you need Git to use GitHub. This is because GitHub is a web-based repository system that stores Git projects. It’s a hosting service whereas Git is a source code management system with an emphasis on speed. 
-            GitHub is known for collaborating and contributing and requires a separate server to be utilized to host web apps. Heroku has its own server allowing you to purchase a hosting plan and deploy web apps easily. It’s for backend stack available for collaboration. 
+                Git is an open-source version control system that allows developers to keep track of our code history. We can easily “undo” changes and get back to earlier versions of the code if and when necessary. You do not need GitHub to use Git but you need Git to use GitHub. This is because GitHub is a web-based repository system that stores Git projects. It’s a hosting service whereas Git is a source code management system with an emphasis on speed. 
+                GitHub is known for collaborating and contributing and requires a separate server to be utilized to host web apps. Heroku has its own server allowing you to purchase a hosting plan and deploy web apps easily. It’s for backend stack available for collaboration. 
 
             </p>
             <p>
@@ -20,15 +20,23 @@ const Homework = () => {
             </p>
         </Essay>
         <Essay
-        number={ 2 }
-        question='Explain the difference between HTML, CSS and JS.'
+            number={ 2 }
+            question={'Explain the difference between HTML, CSS and JS.'}
+        >
+            <p>HTML is what describes and communicates the structure of web pages. It’s the formatting of the page where CSS is the style sheet. CSS describes the presentation of design of the pages. We need both CSS and HTML to have a structurally cohesive and visually appealing website. HTML is responsible for headings, paragraphs, margins, etc. CSS is responsible for design, colors, fonts, and layout. The HTML language consists of tags which surround the content. This is what we have been doing in Visual Studio code. CSS consists of selectors followed be a declaration block for instance ( property : value; ). Selectors indicate which HTML element you want to style. 
+
+            </p>
+            <p>Javascript is a programming language that allows you to create dynamic content, complex features on your web pages, display interactive maps, animated 2D/3D graphics, etc. HTML is the markup language giving structure and meaning to our web content. CSS is the language of style rules that we use to style our HTML content and JavaScript is a scripting language that allows us to create dynamically updating content, control multimedia, animate images and do most everything else. From what I understand, it’s necessary to have all three on a single site to create a unique layout, design and interactions. 
+            </p>
+        </Essay>
+        <Essay
+            number={ 3 }
+            question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
         >
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fugit, a dolor rerum quaerat, sint nostrum, natus excepturi necessitatibus sequi maiores. Non dolorum asperiores magnam impedit perferendis! Nemo, dignissimos cumque.
 
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quibusdam eaque aliquid, autem repellendus labore vel blanditiis repudiandae ullam numquam beatae ipsa corrupti nisi accusamus illo! Dicta officia eum consequuntur.
             </p>
         </Essay>
     </div>
