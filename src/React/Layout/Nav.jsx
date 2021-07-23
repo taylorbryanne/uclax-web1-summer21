@@ -35,8 +35,5 @@ const NavStyled = styled.nav`
             color: teal;
             background-color: white;
         }
-
-
-
     }
     `;
