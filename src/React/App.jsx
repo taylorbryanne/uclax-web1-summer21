@@ -2,22 +2,27 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import styled from 'styled-components';
 
+import { mediaQueries } from 'common/mediaQueries/mediaQueries.js';
+
 import Header from './Layout/Header.jsx';
 import Nav from './Layout/Nav.jsx';
 import Main from './Layout/Main.jsx';
 import Footer from './Layout/Footer.jsx';
+import { MediaQueryProvider } from 'common/mediaQueries/useMediaQuery.js';
 
 
 const App = () => {
 return (
-    <BrowserRouter>
-        <AppStyled> 
-            <Header/>
-            <Nav/> 
-            <Main/>
-            <Footer/>
-         </AppStyled>
-    </BrowserRouter>  
+    <MediaQueryProvider>
+        <BrowserRouter>
+            <AppStyled> 
+                <Header/>
+                <Nav/> 
+                <Main/>
+                <Footer/>
+            </AppStyled>
+        </BrowserRouter>  
+    </MediaQueryProvider>
 );
 }
 

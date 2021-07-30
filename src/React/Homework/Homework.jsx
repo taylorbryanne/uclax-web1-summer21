@@ -1,12 +1,20 @@
 import React from 'react';
 
+import { useMediaQuery } from 'common/mediaQueries/useMediaQuery.js';
+
 import Essay from './Essay.jsx';
 import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
 
 const Homework = () => {
+
+    const { media } = useMediaQuery ();
+
+    console.log('media' , media);
+
     return (
     <div>
-        <SunAndMoon />
+        { media.mdUp && <SunAndMoon /> }
+       
 
         <h2>HOMEWORK</h2>
         <Essay
@@ -55,11 +63,32 @@ A web designer focuses on the design side of the equation primarily. While some 
                 number={ 5 }
                 question='Distinguish the difference between Site Relative, Document Relative and?'
             >
-                <p> Front end developers build the front end of websites and are responsible for user-facing code. To make the building process more efficient, front end developers will use repositories and libraries like React to build the front end of their sites. These developers are responsible for everything the user sees when they visit a site and must use CSS, Html and JavaScript. Front end developers also need to be familiar with frameworks like Bootstrap, Foundation, Backbone, Angular JS, ReactJs and EMberJS. These allow us to have beautiful sites no matter the device. 
-                    </p>
-                <p> A backend developer builds and maintains the backend of the website which enables the user side of the site to exist. The server and application need to communicate with each other. Back-end developers use server-side languages like PHP, Ruby, Python, Java and .Net. These languages help to build the application and tools such as MySQL, Oracle and SQL to find, save or change data and service it back to the user in front-end code. 
+                <p> When embedding files into our html code, it’s important to understand which file path to use. This is where site relative, document relative and absolute relative paths become important for developers.  
 
-A web designer focuses on the design side of the equation primarily. While some web designers know how to code, web designers are able to complete their jobs without having to code. Platforms such as Wordpress and Webflow and templates on these platforms take care of most coding needs so users can use them without having to code. However, many web designers incorporate code for advanced interactions on the website. Wireframes, the site’s flow, button sizing, colors, fonts, graphics, etc are all part of the web designers job.
+                    Absolute paths give the entire URL of the linked document. In our HTML code we would use the entire protocol and domain. Absolute paths are inflexible and do not automatically update when any adjustments have been made to the page linked and are best for assets hosted on another server. 
+
+                </p>
+                <p> Document relative paths are best for local links and are very useful when the current and linked document are in the same folder and will remain together. Unlike absolute paths, relative paths can exclude the part of the path that is the same for both documents. 
+
+                    Site root-relative paths are best for larger sites that are hosted on multiple servers. If documents or links are moved often on a site it’s best to use site root-relative as you will not need to change links as they are relative to the site’s root. The downside is if you rename a document targeted by site root-relative links, those links must be updated even if the documents’ paths relative to each other remain the same. 
+
+                    In conclusion, a relative URL is best within a site when transferring the users from one point to the next within the same domain. An absolute path is best when sending the user to a page hosted outside your server. 
+                </p>
+        </Essay>
+        <Essay
+                number={ 6 }
+                question='What is the difference between jpg, gif, png and SVG images?'
+            >
+                <p> When embedding files into our html code, it’s important to understand which file path to use. This is where site relative, document relative and absolute relative paths become important for developers.  
+
+                    Absolute paths give the entire URL of the linked document. In our HTML code we would use the entire protocol and domain. Absolute paths are inflexible and do not automatically update when any adjustments have been made to the page linked and are best for assets hosted on another server. 
+
+                </p>
+                <p> Document relative paths are best for local links and are very useful when the current and linked document are in the same folder and will remain together. Unlike absolute paths, relative paths can exclude the part of the path that is the same for both documents. 
+
+                    Site root-relative paths are best for larger sites that are hosted on multiple servers. If documents or links are moved often on a site it’s best to use site root-relative as you will not need to change links as they are relative to the site’s root. The downside is if you rename a document targeted by site root-relative links, those links must be updated even if the documents’ paths relative to each other remain the same. 
+
+                    In conclusion, a relative URL is best within a site when transferring the users from one point to the next within the same domain. An absolute path is best when sending the user to a page hosted outside your server. 
                 </p>
         </Essay>
     </div>
