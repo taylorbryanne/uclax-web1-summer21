@@ -79,16 +79,14 @@ A web designer focuses on the design side of the equation primarily. While some 
                 number={ 6 }
                 question='What is the difference between jpg, gif, png and SVG images?'
             >
-                <p> When embedding files into our html code, it’s important to understand which file path to use. This is where site relative, document relative and absolute relative paths become important for developers.  
+                <p> JPG files (joint photographic experts group) are compressed digital images used in different operating systems and across the internet. These image files allow a compression ratio of 10:1 which allows for much smaller image files, which are easier to share and store. Photographs are often JPG files for this reason. 
 
-                    Absolute paths give the entire URL of the linked document. In our HTML code we would use the entire protocol and domain. Absolute paths are inflexible and do not automatically update when any adjustments have been made to the page linked and are best for assets hosted on another server. 
-
+                GIFs (graphics interchange format) are dynamic files which allow for showing movement and details static images can’t. Animations are a common use of GIFs as they are relatively small in size compared to other animated formats. 
                 </p>
-                <p> Document relative paths are best for local links and are very useful when the current and linked document are in the same folder and will remain together. Unlike absolute paths, relative paths can exclude the part of the path that is the same for both documents. 
+                <p> 
+                SVG files are scalable vector graphics. They do not rely on pixels that make up the images we see. Instead they use Vector data which means they can retain image quality as they sale up or down (something PNGs cannot). They are great for logo design, charts, diagrams and graphs. They are also much smaller than high resolution similars in other formats.  
 
-                    Site root-relative paths are best for larger sites that are hosted on multiple servers. If documents or links are moved often on a site it’s best to use site root-relative as you will not need to change links as they are relative to the site’s root. The downside is if you rename a document targeted by site root-relative links, those links must be updated even if the documents’ paths relative to each other remain the same. 
-
-                    In conclusion, a relative URL is best within a site when transferring the users from one point to the next within the same domain. An absolute path is best when sending the user to a page hosted outside your server. 
+                A PNG file is a portable network graphic often used in web design as they have transparent background. It’s great for digital art as it uses lossless compression and also allows for the ability to convert image files to animations. 
                 </p>
         </Essay>
     </div>
