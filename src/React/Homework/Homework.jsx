@@ -88,6 +88,22 @@ A web designer focuses on the design side of the equation primarily. While some 
 
                 A PNG file is a portable network graphic often used in web design as they have transparent background. It’s great for digital art as it uses lossless compression and also allows for the ability to convert image files to animations. 
                 </p>
+                
+        </Essay>
+        <Essay
+                number={ 7 }
+                question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
+            >
+                <p> JPG files (joint photographic experts group) are compressed digital images used in different operating systems and across the internet. These image files allow a compression ratio of 10:1 which allows for much smaller image files, which are easier to share and store. Photographs are often JPG files for this reason. 
+
+                GIFs (graphics interchange format) are dynamic files which allow for showing movement and details static images can’t. Animations are a common use of GIFs as they are relatively small in size compared to other animated formats. 
+                </p>
+                <p> 
+                SVG files are scalable vector graphics. They do not rely on pixels that make up the images we see. Instead they use Vector data which means they can retain image quality as they sale up or down (something PNGs cannot). They are great for logo design, charts, diagrams and graphs. They are also much smaller than high resolution similars in other formats.  
+
+                A PNG file is a portable network graphic often used in web design as they have transparent background. It’s great for digital art as it uses lossless compression and also allows for the ability to convert image files to animations. 
+                </p>
+                
         </Essay>
     </div>
     );
