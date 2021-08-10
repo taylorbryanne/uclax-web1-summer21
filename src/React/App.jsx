@@ -5,10 +5,11 @@ import styled from 'styled-components';
 import { mediaQueries } from 'common/mediaQueries/mediaQueries.js';
 
 import Header from './Layout/Header.jsx';
-import Nav from './Layout/Nav.jsx';
+import Nav from './Layout/Navigation/Navigation.jsx';
 import Main from './Layout/Main.jsx';
 import Footer from './Layout/Footer.jsx';
 import { MediaQueryProvider } from 'common/mediaQueries/useMediaQuery.js';
+import Navigation from './Layout/Navigation/Navigation.jsx';
 
 
 const App = () => {
@@ -17,7 +18,7 @@ return (
         <BrowserRouter>
             <AppStyled> 
                 <Header/>
-                <Nav/> 
+                <Navigation /> 
                 <Main/>
                 <Footer/>
             </AppStyled>
