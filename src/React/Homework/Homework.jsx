@@ -107,6 +107,26 @@ A web designer focuses on the design side of the equation primarily. While some 
                 </p>
                 
         </Essay>
+        <Essay
+                number={ 8 }
+                question='What is considered the right size for an image or video asset?'
+            >
+                <p> The correct size for an image is between 1500 and 2500 pixels wide. When working with images smaller than 1500px the concern is raised regarding the quality of the image. The file size limit is 20MB for an image. Full width images are recommended to be 2400px x 1600px to ensure these hero images look good across any device. For inside content images the horizontal max width is 1500px and the vertical max width is 1000px.  
+                </p>
+                <p> The recommended length and size for videos is 30-40 seconds long with a maximum file size of 25MB. The minimum recommended resolution for videos is 720p or higher. Also, it is recommended that mp4 video files are used on websites. 
+                </p>
+                
+        </Essay>
+        <Essay
+                number={ 9 }
+                question='What does it mean for a company to be Agile? What is the purpose of using Agile, and its pros and cons'
+            >
+                <p> The correct size for an image is between 1500 and 2500 pixels wide. When working with images smaller than 1500px the concern is raised regarding the quality of the image. The file size limit is 20MB for an image. Full width images are recommended to be 2400px x 1600px to ensure these hero images look good across any device. For inside content images the horizontal max width is 1500px and the vertical max width is 1000px.  
+                </p>
+                <p> The recommended length and size for videos is 30-40 seconds long with a maximum file size of 25MB. The minimum recommended resolution for videos is 720p or higher. Also, it is recommended that mp4 video files are used on websites. 
+                </p>
+                
+        </Essay>
     </div>
     );
 }
