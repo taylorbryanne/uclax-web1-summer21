@@ -20,7 +20,7 @@ const Navigation = () => {
     }, [media.mdUp]);
 
     const handleToggle = () => {
-        showMenuUpdate(media.mdUp);
+        showMenuUpdate(!showMenu);
     }
 
     return (

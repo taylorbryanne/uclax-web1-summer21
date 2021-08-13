@@ -121,9 +121,19 @@ A web designer focuses on the design side of the equation primarily. While some 
                 number={ 9 }
                 question='What does it mean for a company to be Agile? What is the purpose of using Agile, and its pros and cons'
             >
-                <p> The correct size for an image is between 1500 and 2500 pixels wide. When working with images smaller than 1500px the concern is raised regarding the quality of the image. The file size limit is 20MB for an image. Full width images are recommended to be 2400px x 1600px to ensure these hero images look good across any device. For inside content images the horizontal max width is 1500px and the vertical max width is 1000px.  
+                <p> Being agile means the compnay works in small, consumable increments. To adapt quickly to changes and implement in more manageable chunks. The developers, etc. all discuss features allowing fort he business to bettr adapt. 
                 </p>
-                <p> The recommended length and size for videos is 30-40 seconds long with a maximum file size of 25MB. The minimum recommended resolution for videos is 720p or higher. Also, it is recommended that mp4 video files are used on websites. 
+                <p> The pros are being able to respond to issues when they come up. Being agile means any time any blocks come up the team is able to help support each other and hash things out. It's more proactive and helps optimize time. The waterfall is much slower and thus agile is preferable in today's business. The cons are the inability to know what the end result will look like from day one which can mean costs, time and resources may change throughout the project. Incremental delivery and more fragmented deliveries are a con as teams work on each componenet in different cycles.
+                </p>
+                
+        </Essay>
+        <Essay
+                number={ 10 }
+                question='What does it mean for a company to be Agile? What is the purpose of using Agile, and its pros and cons'
+            >
+                <p> Being agile means the compnay works in small, consumable increments. To adapt quickly to changes and implement in more manageable chunks. The developers, etc. all discuss features allowing fort he business to bettr adapt. 
+                </p>
+                <p> The pros are being able to respond to issues when they come up. Being agile means any time any blocks come up the team is able to help support each other and hash things out. It's more proactive and helps optimize time. The waterfall is much slower and thus agile is preferable in today's business. The cons are the inability to know what the end result will look like from day one which can mean costs, time and resources may change throughout the project. Incremental delivery and more fragmented deliveries are a con as teams work on each componenet in different cycles.
                 </p>
                 
         </Essay>
