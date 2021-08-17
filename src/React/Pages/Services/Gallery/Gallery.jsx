@@ -12,7 +12,7 @@ const Gallery = ({ services, curCat }) => {
            {
 
             services
-                .filter(( service) => {
+                .filter((service) => {
                     return (curCat === 'All' || service.category === curCat);
                 })
                 .map((service, idx) => {

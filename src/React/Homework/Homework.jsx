@@ -129,11 +129,29 @@ A web designer focuses on the design side of the equation primarily. While some 
         </Essay>
         <Essay
                 number={ 10 }
-                question='What does it mean for a company to be Agile? What is the purpose of using Agile, and its pros and cons'
+                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
             >
-                <p> Being agile means the compnay works in small, consumable increments. To adapt quickly to changes and implement in more manageable chunks. The developers, etc. all discuss features allowing fort he business to bettr adapt. 
+                <p> A testing environment is the location and state of parallel applications where testing occurs. Developers will make clones of their projects to iron out any bugs and glitches there may be. There are different environments this can take place in including the application’s server, cloud based testing and hardware / operating systems on which these versions of software will reside for the testing executions. 
+
+                    A Local testing environment is where the developers create and debug their initial code on their local machines. 
+
+                    Development environment is a shared location for all developers to check their code against changes in that release. This is where the initial build out of the application is written. This stage has been overtaken recently by version control systems such as GitHub which hosts the code in private repositories in the cloud.  
                 </p>
-                <p> The pros are being able to respond to issues when they come up. Being agile means any time any blocks come up the team is able to help support each other and hash things out. It's more proactive and helps optimize time. The waterfall is much slower and thus agile is preferable in today's business. The cons are the inability to know what the end result will look like from day one which can mean costs, time and resources may change throughout the project. Incremental delivery and more fragmented deliveries are a con as teams work on each componenet in different cycles.
+                <p> QA environment is where QA analysts and other testing professionals perform many forms of functional and non-functional testing. They have different environements simulated to test in.
+
+                    Production environment is where the users get to enjoy the released code. It is where the web or mobile application is running on a production server and has gone through the other stages of development and testing. 
+                </p>
+                
+        </Essay>
+        <Essay
+                number={ 11 }
+                question='When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
+            >
+                <p> A testing environment is the location and state of parallel applications where testing occurs. Developers will make clones of their projects to iron out any bugs and glitches there may be. There are different environments this can take place in including the application’s server, cloud based testing and hardware / operating systems on which these versions of software will reside for the testing executions. 
+                </p>
+                <p> QA environment is where QA analysts and other testing professionals perform many forms of functional and non-functional testing. They have different environements simulated to test in.
+
+                    Production environment is where the users get to enjoy the released code. It is where the web or mobile application is running on a production server and has gone through the other stages of development and testing. 
                 </p>
                 
         </Essay>
