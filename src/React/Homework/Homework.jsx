@@ -147,11 +147,23 @@ A web designer focuses on the design side of the equation primarily. While some 
                 number={ 11 }
                 question='When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
             >
-                <p> A testing environment is the location and state of parallel applications where testing occurs. Developers will make clones of their projects to iron out any bugs and glitches there may be. There are different environments this can take place in including the application’s server, cloud based testing and hardware / operating systems on which these versions of software will reside for the testing executions. 
-                </p>
-                <p> QA environment is where QA analysts and other testing professionals perform many forms of functional and non-functional testing. They have different environements simulated to test in.
+                <p> In the beginning of the Web, there was just text but shortly after the ability to add images into web pages became available. This started with the img tag in HTML. You can also imbed images into webpages using CSS as a background image. 
 
-                    Production environment is where the users get to enjoy the released code. It is where the web or mobile application is running on a production server and has gone through the other stages of development and testing. 
+                    However, CSS background images are for decoration only and used to enhance the visuals. They do not have any semantic meaning and can not have any text equivalents, are invisible to screen readers and so on. This is why we primarily use HTML images. 
+
+                    If an image has meaning for the content, we should use HTML. If the image is purely decorative, we can use CSS background images. 
+                </p>
+                
+        </Essay>
+        <Essay
+                number={ 12 }
+                // question= {'What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements both in CSS and JS)'}
+            >
+                <p> In the beginning of the Web, there was just text but shortly after the ability to add images into web pages became available. This started with the img tag in HTML. You can also imbed images into webpages using CSS as a background image. 
+
+                    However, CSS background images are for decoration only and used to enhance the visuals. They do not have any semantic meaning and can not have any text equivalents, are invisible to screen readers and so on. This is why we primarily use HTML images. 
+
+                    If an image has meaning for the content, we should use HTML. If the image is purely decorative, we can use CSS background images. 
                 </p>
                 
         </Essay>
