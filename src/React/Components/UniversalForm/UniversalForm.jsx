@@ -7,6 +7,7 @@ import Context, { reducer } from './Context/index.js';
 
 import Form from './Form/Form.jsx';
 import FormGroup from './Form/FormGroup/FormGroup.jsx';
+import SubmitButton from './Form/Controls/SubmitButton.jsx';
 
 
 const UniversalForm = ({ defaultFormData }) => {
@@ -14,10 +15,15 @@ const UniversalForm = ({ defaultFormData }) => {
   const [state, dispatch] = useReducer(reducer, defaultFormData);
 
     return (
-        <Context.Provider value={ {state, dispatch } }>
+        <Context.Provider value={ {state, dispatch } } displayName='Universal Form Context'>
             <UniversalFormStyled className='UniversalForm'>
                 <Form>
-                    <FormGroup />
+                    {
+                        state.controls.map((control, idx) => {
+                            return  <FormGroup control={ control } key={ idx } />
+                    })
+                }
+                    <SubmitButton />
                 </Form>
             </UniversalFormStyled>
          </Context.Provider>
