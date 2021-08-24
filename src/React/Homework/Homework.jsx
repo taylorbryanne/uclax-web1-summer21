@@ -159,11 +159,27 @@ A web designer focuses on the design side of the equation primarily. While some 
                 number={ 12 }
                 // question= {'What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements both in CSS and JS)'}
             >
-                <p> In the beginning of the Web, there was just text but shortly after the ability to add images into web pages became available. This started with the img tag in HTML. You can also imbed images into webpages using CSS as a background image. 
+                <p> ID’s - An ID is a unique element within a page and can only be applied to one element at most. These are attributes used to label sections or parts of your HTML document. ID’s can only be one per page. Examples of this can be header, footer, menu etc. It’s most used to point to a style in a style sheet. 
 
-                    However, CSS background images are for decoration only and used to enhance the visuals. They do not have any semantic meaning and can not have any text equivalents, are invisible to screen readers and so on. This is why we primarily use HTML images. 
+                    Classes - An attribute used to define a group of HTML elements in order to apply unique formatting to those elements in CSS. A class can apply to multiple elements of a page or a single one. The class name can be used by CSS and Javascript to perform certain tasks for elements with the specified class name. 
 
-                    If an image has meaning for the content, we should use HTML. If the image is purely decorative, we can use CSS background images. 
+                    Tags - A tag is used to create HTML elements such as paragraphs or links. Often elements have an opening and closing tag with content being held in the middle.  However, some elements do not have a closing tag which is called an empty element and would have self-closing tags. 
+
+                    Specificity determines which CSS rule is applied to a specific HTML element at any moment in browsers. When two or more confliciting CSS rules, the browser follows certain rules to deteremine which is more
+                </p>
+                
+        </Essay>
+        <Essay
+                number={ 13 }
+                // question= {'What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'}
+            >
+                <p> ID’s - An ID is a unique element within a page and can only be applied to one element at most. These are attributes used to label sections or parts of your HTML document. ID’s can only be one per page. Examples of this can be header, footer, menu etc. It’s most used to point to a style in a style sheet. 
+
+                    Classes - An attribute used to define a group of HTML elements in order to apply unique formatting to those elements in CSS. A class can apply to multiple elements of a page or a single one. The class name can be used by CSS and Javascript to perform certain tasks for elements with the specified class name. 
+
+                    Tags - A tag is used to create HTML elements such as paragraphs or links. Often elements have an opening and closing tag with content being held in the middle.  However, some elements do not have a closing tag which is called an empty element and would have self-closing tags. 
+
+                    Specificity determines which CSS rule is applied to a specific HTML element at any moment in browsers.  
                 </p>
                 
         </Essay>
