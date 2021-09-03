@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 
+import Context from '../../Context/index.js';
+import { submitForm } from '../../Context/actions.js';
+
 const SubmitButton = () => {
+
+    const { dispatch, state } = useContext(Context);
 
     const handleClick = (e) => {
         e.preventDefault();
         console.log('Form Submitted');
+        submitForm(dispatch, state);
     }
 
     return (
@@ -26,7 +32,7 @@ const SubmitButtonStyled = styled.button`
     color: #fff;
 
     padding: 10px 20px;
-    border-raidus: 5px;
+    border-radius: 5px;
 
     &.hover, &:focus{
         background-color: #026161;

@@ -173,13 +173,37 @@ A web designer focuses on the design side of the equation primarily. While some 
                 number={ 13 }
                 // question= {'What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'}
             >
-                <p> ID’s - An ID is a unique element within a page and can only be applied to one element at most. These are attributes used to label sections or parts of your HTML document. ID’s can only be one per page. Examples of this can be header, footer, menu etc. It’s most used to point to a style in a style sheet. 
+                <p> A CSS preprocessor extends the basic functionality of default vanilla CSS through its own scripting language. Then you use some program to compile that scripted language into the regular CSS syntax that your browser is expecting to see and use. It’s very similar to CSS with additional things in the language. It generally has clearer code with reusable pieces.  They save you time because variables and functions are reusable and you can use code shared by other people. Sass, Less and Stylus. Saas is the oldest one and allows frontend delvers to use variables, statements, loops, inheritance and other computational logic in their CSS code. 
 
-                    Classes - An attribute used to define a group of HTML elements in order to apply unique formatting to those elements in CSS. A class can apply to multiple elements of a page or a single one. The class name can be used by CSS and Javascript to perform certain tasks for elements with the specified class name. 
+                        CSS is void of complex logic and functionality that is used to write reusable and organized code. 
+                </p>
+                <p>  Styled components are a CSS-in-JS tool that Bridget the gap between components and styling, offering numerous features to get you up and running in styling components in a functional and reusable way. It is a library for react that allows you to use component-level styles in your application. These are written with a mix of JavaScript and CSS using a technique called CSS-in-JS. 
 
-                    Tags - A tag is used to create HTML elements such as paragraphs or links. Often elements have an opening and closing tag with content being held in the middle.  However, some elements do not have a closing tag which is called an empty element and would have self-closing tags. 
-
-                    Specificity determines which CSS rule is applied to a specific HTML element at any moment in browsers.  
+                        Styled components violates separation concerns because we are not supposed to mix CSS, HTML and JavaScript. It’s mixing styling and structure. It’s mixing Semantic Content (Model) with Behavior (Controller). 
+                </p>
+                
+        </Essay>
+        <Essay
+                number={ 14 }
+                // question= {'Who is the client? (e.g. Me, a friend of mine starting a business, Coffee Bean, Made Up Widget Company. What is it's purpose? (e.g. an online brochure for a coffee shop, to promote my portfolio work). Why did you choose this subject?'}
+            >
+                <p> My final project will be a website redesign for a bakery I love in Los Angeles. The bakery site will allow me to utilize the functions we have worked on in this class including Lightbox, services, contact form and the welcome tabs. The client is the owner of the bakery and I am pretending she hired me to help give her website a facelift and entice new and existing buys to visit the shop more often. The owner is looking for a modern, clean, bright, fun and playful website. 
+                </p>
+                <p>  The purpose of the website is to enable users to contact the bakery easier for custom cake and pastry orders, to have a better user experience so users stay on the website longer and also establish a young-fun vibe so customers know the bakery is forward-thinking and always thinking outside the box. 
+                </p>
+                <p>  I chose this subject because the current website leaves a lot to be desired and I believe Cake Monkey is losing business due to this. There are a number of ways to showcase the delicious treats they sell and none are currently being used. I love the bakery and want them to thrive so this redesign is my idea to help them do so. I also love the visuals I will get to work with for this project as looking at tasty food is not a bad job.
+                </p>
+                
+        </Essay>
+        <Essay
+                number={ 15 }
+                // question= {'What is the difference between Web Hosts, Domains & FTP?'}
+            >
+                <p> Web hosts: Companies that provide space on a server for clients to lease or own, along with internet connectivity. These hosts allows a website or web page to be posted to the internet. These sites are hosted on servers, when someone wants to access your site they simply need to know your URL and will be connected to the hosted server. Most companies require you to own your domain to host with them.
+                </p>
+                <p> Domains: A domain name is a name that is associated with a physical IP address on the internet. It's a unique name that appears after the www. in web addresses. It is your address online and the URL leads people to your front door. The website itself is the house where your site lives. 
+                </p>
+                <p>  FTP: It stands for file transfer protocol, and is a way to transfer files between computers. It is both a noun and a verb which means to send or recieve files. It's a way to connect two computers and move files between them and allows web pages created by an individual to show up on the internet. Using an FTP client we can upload, download, delete, move, rename and copy the file on a server. 
                 </p>
                 
         </Essay>

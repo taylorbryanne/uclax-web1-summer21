@@ -6,24 +6,45 @@ import UniversalForm from 'React/Components/UniversalForm/UniversalForm';
 const ContactForm = () => {
 
     const defaultFormData = {
+        apiUrl: '/email/send',
+        hasSubmitted: false,
+        request: {},
+        response: {},
+        message: '',
+
         controls: [
             {
                 id: 'fullname',
                 label: 'Full Name',
-                value: '',
+                value: 'Taylor Stanley',
                 type: 'text',
+                validation: {
+                    isValid: true,
+                    rules: ['required'],
+                    message: '',
+                }
             },
             {
                 id: 'email',
                 label: 'Email',
-                value: '',
+                value: 'taylor@gmail.com',
                 type: 'text',
+                validation: {
+                    isValid: true,
+                    rules: ['required', 'email'],
+                    message: '',
+                },
             },
             {
                 id: 'message',
                 label: 'Message',
-                value: '',
+                value: 'This is my really amazing message.',
                 type: 'textarea',
+                validation: {
+                    isValid: true,
+                    rules: ['required'],
+                    message: '',
+                }
             },
         ]
     }
