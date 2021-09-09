@@ -20,7 +20,7 @@ export default Tab;
 
 const TabStyled = styled.div`
         padding: 20px;
-        background-color: teal;
+        background-color: #fa75f3;
 
         width: 150px;
         text-align: center;
@@ -31,10 +31,10 @@ const TabStyled = styled.div`
         margin-right: 5px;
         border-radius: 5px 5px 0px 0px;
 
-        background-color: #035050;
+        background-color: #fa75f3;
 
         &.chosen {
-            background-color: teal;
+            background-color: #fa75f3;
         }
     
 `;

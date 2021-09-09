@@ -8,8 +8,8 @@ import { mediaQueries } from "common/mediaQueries/mediaQueries";
 const Nav = () => {
     return (
         <NavStyled>
-            <NavLink to="/" exact>Welcome</NavLink>
-            <NavLink to="/services">Services</NavLink>
+            <NavLink to="/" exact>Home</NavLink>
+            <NavLink to="/services">Weddings/Events</NavLink>
             <NavLink to="/contact">Contact</NavLink>
             <NavLink to="/login">Login</NavLink>
             <NavLink to="/homework">Homework</NavLink> 
@@ -20,7 +20,7 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: #005050;
+    background-color: #fabdf7;
     padding: 10px;
     text-align: center;
     
@@ -28,7 +28,7 @@ const NavStyled = styled.nav`
         display: block;
         margin: 5px 0px;
 
-        background-color: teal;
+        background-color: #ea05ff;
         color: white;
         padding: 10px;
         
@@ -37,13 +37,13 @@ const NavStyled = styled.nav`
         text-transform: uppercase;
 
         &:hover {
-            color: teal;
+            color: #ea05ff;
             background-color: white;
         }
     
         &.active {
-            color: #003c3c;
-            background-color: #00baba;
+            color: #9d00ac;
+            background-color: #ed86f7;
         }
     }
 

@@ -8,7 +8,8 @@ const Staff = () => {
     return (
         <StaffStyled className= 'Staff'>
                 <div className="inset-container">
-                <h2>Staff</h2>
+                <h2>A Sample Daily Menu</h2>
+                <p> Our treats are always changing, here are some of our consistent menu items!</p>
                 <StaffMembers />
                 </div>
         </StaffStyled>

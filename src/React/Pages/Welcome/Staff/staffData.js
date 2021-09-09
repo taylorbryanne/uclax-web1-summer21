@@ -1,34 +1,34 @@
 export const staffData = [
     {
-        image: '/img/Staff/staff-1.jpeg',
-        name: 'George',
+        image: '/img/Staff/almondcroissant.png',
+        name: 'Almond Croissant',
     },
     {
-        image: '/img/Staff/staff-2.jpeg',
-        name: 'Sherry',
+        image: '/img/Staff/babyandtreats.png',
+        name: 'Babies Assortment',
     },
     {
-        image: '/img/Staff/staff-3.jpeg',
-        name: 'Laura',
+        image: '/img/Staff/cookies.png',
+        name: 'Girl Scout & Chocolate Cookie',
     },
     {
-        image: '/img/Staff/staff-4.jpeg',
-        name: 'Jan',
+        image: '/img/Staff/eatcake.png',
+        name: 'Eat Cake',
     },
     {
-        image: '/img/Staff/staff-5.jpeg',
-        name: 'Susan',
+        image: '/img/Staff/fluffypastry.png',
+        name: 'Fluffies',
     },
     {
-        image: '/img/Staff/staff-6.jpeg',
-        name: 'Claire',
+        image: '/img/Staff/lilmerries.png',
+        name: 'Lil Merries Cookie',
     },
     {
-        image: '/img/Staff/staff-7.jpeg',
-        name: 'Steph',
+        image: '/img/Staff/raspberrycake.png',
+        name: 'Raspberry Mini Cake',
     },
     {
-        image: '/img/Staff/staff-8.jpeg',
-        name: 'Tracy',
+        image: '/img/Staff/minicakedisplay.png',
+        name: 'Yummy Small Cakes',
     },
 ];

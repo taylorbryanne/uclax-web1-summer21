@@ -12,7 +12,6 @@ import Homework from '../Homework/Homework.jsx';
 
 const Main = () => {
     return <MainStyled> 
-                <h1>The Main Content</h1>
                 <Switch> 
                     <Route path='/services'>
                         <Services />
@@ -37,7 +36,7 @@ export default Main;
 
 
 const MainStyled = styled.main`
-    background-color: #d3c795;
+    background-color: #ffffff;
     padding: 20px;
 
 /* div {

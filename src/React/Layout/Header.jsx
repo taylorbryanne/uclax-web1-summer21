@@ -4,8 +4,8 @@ import styled from "styled-components"
 const Header = () => {
     return (
     <HeaderStyled> 
-        <h2>Spa Sanctuary</h2>
-        <h3>A SPA for every occassion</h3> 
+        <h2>Cake Monkey Bakery</h2>
+        <h3>Childhood Treats for Everyone!</h3> 
     </HeaderStyled>
     )
 }
@@ -13,7 +13,7 @@ const Header = () => {
 export default Header;
 
 const HeaderStyled = styled.header`
-    background-color: teal;
+    background-color: #fa75f3;
     padding: 20px;
     text-align: center;
 `;

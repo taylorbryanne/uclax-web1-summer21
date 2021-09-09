@@ -16,9 +16,9 @@ const Playground = () => {
 
     return (
         <PlaygroundStyled className='Playground'>
-            <h2>Playground</h2>
+            <h2>Made Fresh Daily</h2>
             <Lightbox LightboxContent={ LightboxContent }>
-                MY CONTENT
+                OUR BEAUTIFUL TREATS
             </Lightbox>
         </PlaygroundStyled>
     );
